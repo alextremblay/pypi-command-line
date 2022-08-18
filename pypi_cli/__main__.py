@@ -238,7 +238,7 @@ class PypiTyper(typer.Typer):
 
 
 # We instantiate a cutom typer app
-app = PypiTyper()
+app = typer.Typer()
 console = Console(
     theme=Theme(
         {
